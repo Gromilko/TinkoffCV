@@ -447,4 +447,5 @@ if __name__ == "__main__":
         f.write('id,height\n')
         for i in range(len(heights)):
             f.write("{},{}\n".format(heights[i][0], heights[i][1]))
+    # asdasdasd
     '''
