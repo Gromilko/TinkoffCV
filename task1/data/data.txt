@@ -1,0 +1,1 @@
+Тут появятся npy-файлы после запуска create_crop_img.py и create_crop_img_with_flip.py
