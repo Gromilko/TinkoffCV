@@ -11,8 +11,8 @@ model_flip = get_unetBN()
 model_flip.load_weights('../weights/building/13.12(1)_flip_no_road/weights_ep83-vjc0.7943.hdf5')
 
 model = get_unetBN()
-# model.load_weights('../weights/building/12.12(1)_no_road/weights_ep103-vjc0.8456.hdf5')
-model.load_weights('../weights/building/27.11(1)/weights_ep99-vjc0.9034.hdf5')
+model.load_weights('../weights/building/12.12(1)_no_road/weights_ep103-vjc0.8456.hdf5')
+# model.load_weights('../weights/building/27.11(1)/weights_ep99-vjc0.9034.hdf5')
 
 start = datetime.now()
 

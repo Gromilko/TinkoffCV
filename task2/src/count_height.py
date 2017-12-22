@@ -106,7 +106,7 @@ if __name__ == "__main__":
     # порог подбирался в QGis
     shadow_full = tif.imread('../tif/pan_shadows_less.tif')
     shadow_full = np.flip(shadow_full, 0)
-    with open('submit.csv', 'w') as f:
+    with open('../submit.csv', 'w') as f:
         f.write('id,height\n')
         for idx in range(0, df.shape[0]):
             print(idx)

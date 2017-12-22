@@ -27,7 +27,7 @@ if __name__ == "__main__":
     csv_logger = CSVLogger('../logs/{}_{}_train.csv'.format(CLASS_NAME, date_str), append=False)
 
     path = os.path.join('../weights', CLASS_NAME, date_str)
-    # os.mkdir(path)
+    os.mkdir(path)
     model_checkpoint = ModelCheckpoint(os.path.join(path, "weights_ep{epoch:02d}-vjc{val_jaccard_coef:.4f}.hdf5"),
                                        monitor='val_jaccard_coef', verbose=1, save_best_only=True,
                                        save_weights_only=True, mode='auto', period=1)
