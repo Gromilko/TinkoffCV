@@ -5,7 +5,6 @@ import math
 import cv2
 
 import tifffile as tif
-
 from shapely.geometry import Point
 from skimage.morphology import remove_small_holes, remove_small_objects
 
